@@ -1,16 +1,53 @@
 @charset "UTF-8";
 body{
             
-    background-color: hsla(0, 0%, 71%, 0.973);
+    background-color: #dddddd;
     color: rgba(0,0,0,1);
 
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    padding: 10px;
 }
 p {
     text-align: justify; 
     text-indent: 50px;
 }
 
-/*Formatação de imagens com legenda*/
+header#cabecalho img#icone {
+    position: absolute;
+    left: 960px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*FormataÃ§Ã£o de imagens com legenda*/
 
 figure.foto-legenda {
     position: relative;
@@ -37,7 +74,7 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
-/*Formatação do Menu*/
+/*Formataï¿½ï¿½o do Menu*/
 
 nav#menu {
     display: block;
@@ -45,7 +82,7 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute; /*Posição absoluta, livre para qualquer posição da tela*/
+    position: absolute; /*PosiÃ§Ã£o absoluta, livre para qualquer posiÃ§Ã£o da tela*/
     top: -20px;
     left: 500px;
 }
@@ -59,9 +96,20 @@ nav#menu li {
 }
 
 nav#menu li:hover {
-    background-color: #606060; /*Quando passar o mouse por cima o botão escurece*/
+    background-color: #606060; /*Quando passar o mouse por cima o botÃ£o escurece*/
 }
 
 nav#menu h1 {
     display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
