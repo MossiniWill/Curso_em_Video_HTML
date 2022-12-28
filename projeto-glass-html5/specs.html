@@ -40,13 +40,22 @@
                 <h2>por Mossini Will</h2>
                 <h3 class="direita">Atualizado em 27/Dezembro/2022</h3>
             </hgroup>
-        </header>  
+        </header>
 
         <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
         </p> 
 
         <section id="conteudo">
-            <img src="_imagens/glass-esquema-marcado.jpg">
+            <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa">
+            <map name="meumapa">
+                <!--(area retangular) - 1º informe as coordenadas clicaveis na imagens-->
+                <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+                <!-- (area circular) - 1º informe as coordenadas do centro da circunferência, 2º qual o tamanho em pixel do raio-->
+                <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+                <area shape="circle" coords="73,52,12" href="google-glass.html#bateria" target="janela"/>
+                <!-- (area poligonal) Coloque os pontos da imagem que se deseja delimitar-->
+                <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+            </map>
             <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
         </section>
 
