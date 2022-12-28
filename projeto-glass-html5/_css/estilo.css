@@ -62,7 +62,7 @@ header#cabecalho h2{
     margin-top: 0px;
 }
 
-/*Formatação de imagens com legenda*/
+/*FormataÃ§Ã£o de imagens com legenda*/
 
 figure.foto-legenda {
     position: relative;
@@ -89,7 +89,7 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
-/*Formatação do Menu*/
+/*FormataÃ§Ã£o do Menu*/
 
 nav#menu {
     display: block;
@@ -97,7 +97,7 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute; /*Posição absoluta, livre para qualquer posição da tela*/
+    position: absolute; /*PosiÃ§Ã£o absoluta, livre para qualquer posiÃ§Ã£o da tela*/
     top: -20px;
     left: 475px;
 }
@@ -111,7 +111,7 @@ nav#menu li {
 }
 
 nav#menu li:hover {
-    background-color: #606060; /*Quando passar o mouse por cima o botão escurece*/
+    background-color: #606060; /*Quando passar o mouse por cima o botÃ£o escurece*/
 }
 
 nav#menu h1 {
